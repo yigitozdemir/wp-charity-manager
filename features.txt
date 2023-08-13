@@ -1,0 +1,5 @@
+
+
+1) Iki tip kullanici grubu => admin / standart kullanici
+2) Fihrist, adminler ekleyip duzenleyebilir, standart kullanici goruntuleme / arama
+3) Proje ekleme kaldirma duzenleme => admin
