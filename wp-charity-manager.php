@@ -13,8 +13,14 @@ Version: 0.0.1
 Author URI: http://yigitnot.wordpress.com/
 */
 
+/**
+ * Includes
+ */
+include __DIR__ . '/utils/AddTailwind.php';
+/**
+ * Definitons
+ */
 $OBSEnabledModules = array();
-
 add_action( 'init', 'OBSCharityManagerInit' );
 
 function OBSCharityManagerInit(){

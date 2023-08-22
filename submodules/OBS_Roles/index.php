@@ -10,8 +10,20 @@ function OBSRolesCreateAdminMenu(){
 }
 
 function obs_roles_settings_page(){
-    //echo 'obs roles settings page';
-    include_once 'views/MainPage.php';
+    if(isset($_GET['action'])){
+        $action = $_GET['action'];
+        if($action == 'home'){
+            include_once 'views/MainPage.php';
+        }
+        if($action == 'addrole'){
+            include_once 'views/AddRole.php';
+        }
+        if($action == 'deleterole'){
+        
+        }
+    } else {
+        include_once 'views/MainPage.php';
+    }
 }
 
 function OBSRoles_enqueue_application(){
